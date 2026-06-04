@@ -1,0 +1,23 @@
+name: main_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy=1.26.*
+  - pyarrow=14.*
+  - pillow>=10,<11
+  - ffmpeg=6.1
+  - cmake=3.27
+  - dlib
+  - make
+  - gxx_linux-64>=13.2
+  - libstdcxx-ng>=13.2
+  - libgcc-ng>=13.2
+  - libffi
+  - boost
+  - boost-cpp
+  - fastapi=0.104.0
+  - starlette=0.27.0
+  - uvicorn=0.23.2
+  - pydantic=1.10.13

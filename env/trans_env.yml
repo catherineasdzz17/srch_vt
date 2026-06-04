@@ -1,0 +1,12 @@
+name: trans_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy>=1.23
+  - uvicorn
+  - fastapi
+  - starlette
+  - pydantic
+  - sentencepiece
